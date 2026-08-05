@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite"
+    "dev": "vite",
+    "dev:backend": "python -m uvicorn record_store:app --reload --port 8000"
   },
   "dependencies": {
     "react": "18.3.1",
